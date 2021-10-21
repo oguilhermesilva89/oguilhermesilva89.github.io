@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    height: 100%;  
+}
+
+body {
+    
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background: rgb(54,76,221);
+    background: linear-gradient(180deg, rgba(54,76,221,1) 0%, rgba(11,27,112,1) 100%);
+    
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+.links-list {
+    list-style: none;
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+.links-list li a{
+    display: block;
+    color: rgb(54,76,221);
+    background-color:#ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-list li a span{
+    color:grey;
+    display: block;
+    margin-top: 10px;
+    font-weight:500;
+}
+
+.links-list2 {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.links-list2 li{
+    margin: 10px 20px;
+}
+
+.links-list2 li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-list2 li a span{
+    color:grey;
+    display: block;
+    margin-top: 10px;
+    font-weight:500;
+}
